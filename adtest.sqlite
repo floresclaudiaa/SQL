@@ -1,10 +1,10 @@
- SELECT *
- FROM users
- LIMIT 10;
+SELECT *
+FROM users
+LIMIT 10;
 
- SELECT email, birthday
- FROM users
- WHERE birthday >= '1980-01-01'
+SELECT email, birthday
+FROM users
+WHERE birthday >= '1980-01-01'
   AND birthday >= '1989-12-31';
 
 SELECT email, birthday
